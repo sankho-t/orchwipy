@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orchwipy"
+version = "0.1.0"
+dependencies = ["PyYAML", "boto3 >= 1.10", "networkx"]
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["orchwipy"]
+
+[tool.setuptools.package-data]
+"orchwipy" = ["py.typed"]

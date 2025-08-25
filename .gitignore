@@ -1,0 +1,10 @@
+__pycache__
+.mypy_cache
+.venv
+build
+layer
+*.egg-info
+example.py
+*.dot
+*.svg
+*.yml
